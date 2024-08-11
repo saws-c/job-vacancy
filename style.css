@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: center;
+  }
+  
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .img {
+      width: 80%;
+      padding: 0;
+    }
+    .img {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .img {
+      width: 100%;
+    }
+  }
